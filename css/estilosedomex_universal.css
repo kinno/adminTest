@@ -1,0 +1,750 @@
+body,td,th { font-family:Arial; font-size: 12px;color:#000000;}
+body {background-color: #FFFFFF;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;background-color:inherit;}
+html{height: 100%;}
+a {font-size: 12px;color: #000000;}
+a:link {color: #000000;}
+a:visited {color: #000000;}
+a:hover {color: #db001b;}
+a:active {color: #000000;}
+
+h1 { /*Estilo Titulo principal para Contenido Color Rojo*/
+	font-size:17px;font-weight: bold;color: #db001b; margin-top:0px; margin-bottom:0px;
+}
+h2 { /*Estilo Subtitulo para Contenido Color Verde*/
+	font-size:15px;font-weight: bold;color: #8CB809;margin-top:0px; margin-bottom:0px;
+}
+h3 { /*Estilo Titulo de la p�gina en el Header*/
+	font-size: 16px; float:left; color: #294e00; font-weight: bold; margin-top:0px; margin-bottom:0px;
+}
+h4 { /*Estilo Subtitulo de la p�gina en el Header*/
+	font-size: 13px;  color: #db001b; font-weight: bold; margin-top:0px; margin-bottom:0px;
+}
+
+.goog-te-gadget-simple {background-color:#F5F5F5;border:none;font-size:11px;margin-left:580px; margin-top:-27px; float:left}
+/*.goog-te-gadget-simple img{display:none;} hides the image in the widget*/
+
+.TituloPrograma {font-size: 17px;font-weight: bold;color: #d21145;padding-bottom:10px;}
+img {border: none;}
+
+.floatLeft{float: left;}
+.floatRight{float: right;}
+.imagen-izquierda{float: left; vertical-align: text-top; margin-right:10px; margin-bottom:6px }
+.imagen-derecha{float: right; vertical-align: text-top; margin-left:10px; margin-bottom:6px}
+div.TextoJustificado{width:100%; float:left; text-align:justify; vertical-align: text-top}
+
+div.TemasContenidoCentral{width:100%; float:left; text-align:left; vertical-align: text-top}
+.toolbar{float: right; margin-bottom:4px;}
+.imagen-banner{float: left; vertical-align: text-top; margin-right:10px; margin-bottom:6px }
+.SerieImagenes {margin-bottom:15px;}
+
+/*Menu top Home Portalgem*/
+.FondoMenutopHomePortal{background-image: url(fondoidmenutop.gif); background-repeat: no-repeat;background-position: 50% 0%; height:36px; margin-bottom:16px;}
+.MenuHomePortalContenedor{ padding-left:3px; padding-right:3px;}
+.MenuTopHomePortal {font-size: 10px;color: #5f5f5f;font-weight: bold;  text-decoration:none; text-align:center;}
+.MenuTopHomePortal:link {color: #5f5f5f;}/**/
+.MenuTopHomePortal:visited {color: #5f5f5f;}
+.MenuTopHomePortal:hover {color: #5f5f5f;background: #CCCCCC;background-color:inherit; }
+.MenuTopHomePortal:active {color: #5f5f5f;}
+.sobre:hover, .sobre-hover {background-color: #CCCCCC;   height:32px; text-align:center;}
+th.sl {border-right-color:#E8E8E8; border-right-width:thin; border-right-style:solid; }
+th.CeldaMenuTopHomePortal:hover {background-color: #CCCCCC; height:32px; text-align:center;border-right-color: #E8E8E8; border-right-width:thin; border-right-style:solid;}
+
+/*Menu top Interiores Portal y Sitios dependencias*/
+.FondoMenutopdependencias{background-image: url(../images/menutopsitios.gif); background-repeat: no-repeat;background-position: 50% 0%; height:50px; margin-bottom:16px;}
+.MenuDependenciasContenedor{ padding-left:6px; padding-right:6px; height: auto; line-height: inherit;}
+.MenuTopdependencias {font-size: 11px;color: #5f5f5f;font-weight: bold;  text-decoration:none; text-align:center;}
+.MenuTopdependencias:link {color: #5f5f5f;}
+.MenuTopdependencias:visited {color: #5f5f5f;}
+.MenuTopdependencias:hover {color: #5f5f5f; }
+.MenuTopdependencias:active {color: #5f5f5f;}
+.sobre:hover, .sobre-hover {background-color: #CCCCCC;   height:40px; text-align:center;}
+th.CeldaMenuTopdependencias {border-right-color:#E8E8E8; border-right-width:thin; border-right-style:solid; }
+th.CeldaMenuTopdependencias:hover {background-color: #CCCCCC; height:40px; text-align:center;border-right-color: #E8E8E8; border-right-width:thin; border-right-style:solid;}
+th.CeldaMenuTopdependenciasCurrent {background-color: #CCCCCC; height:40px; text-align:center; }
+
+.FondoMenutopSistemas{background-image: url(fondomenutopsistemas.gif); background-repeat: repeat-x; height:50px; margin-bottom:16px;}
+
+
+/*Header*/
+/*.BannerHeader{background-repeat: no-repeat;background-position: 50% 0%;}*/
+.PlecaHeader{background-image: url(bgidheader.gif); background-repeat: no-repeat;background-position: 50% 0%; height:45px;}
+
+.CajaBuscador{font-size:12px; color:#999999; border:solid; border-style:solid; border-width:1px; border-color: #999999;}
+.TituloTop {font-weight: bold;font-size: 17px;color: #FFFFFF; background-color:inherit;}
+.TituloTopDependencias {font-weight: bold;text-align:left;font-size:40px;color: #FFFFFF;padding-top:0px; background-color:inherit;}
+.SubtituloTop {font-weight: bold; font-size: 15px; color: #FFFFFF; background-color:inherit; }
+.TituloPrincipal {padding-bottom:0px;font-size: 17px;font-weight: bold;color: #d21145;}
+/*.TituloNoticiaCatalogo reemplazado por el de abajo*/
+.TituloRojo {padding-bottom:0px;font-size: 13px;font-weight: bold;color: #d21145;}
+.TituloVerde {padding-bottom:0px;font-size: 17px;font-weight: bold;color: #7ac142;}
+.EncabezadoPrincipal {padding-bottom:0px;background-image:url(barratituloprincipal.gif); background-repeat: repeat-x;font-size: 16px;height:39px;font-weight: bold;color: #d21145;padding-top:12px; padding-left:7px}
+.EncabezadoPrincipalTemas {padding-bottom:0px;background-image:url(barratituloprincipalrojo.gif); background-repeat: repeat-x;font-size:16px;height:39px;font-weight: bold;color: #EE0000;padding-top:12px;padding-left:7px}
+.EncabezadoPrincipalPersonas {padding-bottom:0px;background-image:url(barratituloprincipalverde.gif);background-color:inherit; background-repeat: repeat-x;font-size: 16px;height:39px;font-weight: bold;color: #3A9100;padding-top:12px;padding-left:7px}
+.TituloEventosGobierno{color:#db001b;font-size: 17px;font-weight: bold;padding:0px;}
+.TituloBuscador{font-size:16px; font-weight:bold;color:#333333;padding-bottom:11px;}
+.Fuente,.TextoPiePagina {font-size:12px; font-weight:normal;color:#666666;padding-bottom:10px;}
+.TextoPiePagina {text-align:center;}
+.DescripcionBanner {font-size:10px;line-height:10px;font-weight:normal;color:#666666;padding-bottom:10px;text-align:left;}
+.PieFoto {font-size:12px; line-height:12px;font-weight:normal;color: #333333;width: auto;overflow: inherit;padding-bottom:5px;}
+
+.TituloSeguridadPrincipal{ font-size:18px; font-weight:bold;color: white;background:  #003300 url(barratituloverdeolivo.gif) repeat-x center left;margin-bottom: 0px; padding: 4px 0 4px 10px; }
+.TituloGobiernoPrincipal{font-size:18px; font-weight:bold;color: white;background:  #003300 url(barratitulorosa.gif) repeat-x center left;margin-bottom: 0px; padding: 4px 0 4px 10px; }
+.TituloEstadoPrincipal{font-size:18px; font-weight:bold;color: white;background:  #003300 url(barratituloverdebandera.gif) repeat-x center left;margin-bottom: 0px; padding: 4px 0 4px 10px; }
+.TituloEventosPrincipal{font-size:18px; font-weight:bold;color: white;background:  #003300 url(barratituloverde2.jpg) repeat-x center left;margin-bottom: 0px; padding: 4px 0 4px 10px; }
+.TituloEscribemeGris{font-size:18px; font-weight:bold;color: white;background:  #666666 url(barratitulogris.gif) repeat-x center left; background-color:inherit; margin-bottom: 0px; padding: 4px 0 4px 10px; }
+.TituloServicios{font-size:18px; font-weight:bold;color: white;background:  #003300 url(barratituloverde.gif) repeat-x center left;margin-bottom: 0px; padding: 4px 0 4px 10px; }
+
+.MenuAZ{margin: 0;padding: 0;padding-left:0px;font-size:12px; font-weight:bold;width: 100%;height:25px;line-height:25px;overflow: hidden;margin-bottom:16px;background:#EBEBEB;border: 1px #7ac142 solid;}
+.MenuAZ li{display: inline;}
+.MenuAZ li a{float: left;color: #666666;padding: 0px;padding-left:7px;padding-right:7px;text-decoration: none;}
+.MenuAZ li a:visited{color: #666666;}
+.MenuAZ li a:hover, .MenuAZ li .current{color: white;height:25px;line-height:25px;background: #7ac142;background-color:inherit;}
+
+.LigaMasInformacion { font-size:12px; color: #db001b;font-weight: normal; text-align:right; text-decoration:underline}
+.LigaMasInformacion:link {color: #db001b;}
+.LigaMasInformacion:visited {color: #db001b;}
+.LigaMasInformacion:hover {color: #7ac142;}
+.LigaMasInformacion:active {color: #db001b;}
+
+.SubtituloTemasTramites {padding-bottom:0px;font-size:27px;font-weight: bold;color: #7ac142; text-decoration:none;}
+.SubtituloTemasTramites:link {color: #7ac142;}
+.SubtituloTemasTramites:visited {color: #7ac142;}
+.SubtituloTemasTramites:hover {color: #db001b; text-decoration:underline;}
+.SubtituloTemasTramites:active {color: #7ac142;}
+
+.LigaVerdeTramites {padding-bottom:0px;font-size:12px;font-weight: normal;color: #db001b; text-decoration:underline;}
+.LigaVerdeTramites:link {color: #db001b;}
+.LigaVerdeTramites:visited {color: #db001b;}
+.LigaVerdeTramites:hover {color: #7ac142;}
+.LigaVerdeTramites:active {color: #db001b;}
+
+.SubtituloTemasTramitesVerde {padding-bottom:0px;font-size:27px;font-weight: bold;color: #7ac142; text-decoration:none;}
+
+/*Estilo Menus de Lista Area de Gobierno Tramites*/
+.MenuListaAreasTramites{width: 100%; text-align:left;}
+.MenuListaAreasTramites .headerbar{padding-bottom:0px;font-size:26px;font-weight: bold;color: #7ac142; text-decoration:none;}
+.MenuListaAreasTramites ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size: 12px;}
+.MenuListaAreasTramites ul li{padding-bottom: 2px; }
+.MenuListaAreasTramites ul li a{color: #000000;display: block;text-decoration: none;font-weight: normal;font-size:12px;}
+.MenuListaAreasTramites ul li a:visited{color: #000000;}
+.MenuListaAreasTramites ul li a:hover{ color: #7ac142; text-decoration:underline}
+
+.LigaTemasTramites {color: #000000;font-weight: normal; text-align:right; text-decoration:none}
+.LigaTemasTramites:link {color: #000000;}
+.LigaTemasTramites:visited {color: #000000;}
+.LigaTemasTramites:hover {color: #7ac142; text-decoration:underline;}
+.LigaTemasTramites:active {color: #000000;}
+
+.LigaEnlaceExterno {color: #db001b;font-weight: normal; text-align:right; text-decoration:underline}
+.LigaEnlaceExterno:link {color: #db001b;}
+.LigaEnlaceExterno:visited {color: #db001b;}
+.LigaEnlaceExterno:hover {color: #7ac142;}
+.LigaEnlaceExterno:active {color: #db001b;}
+
+.LigaContenidoCentral {font-size:12px;color: #333333;font-weight: normal; line-height:14px; text-align:left; text-decoration:none}
+.LigaContenidoCentral:link {color: #333333;}
+.LigaContenidoCentral:visited {color: #333333;}
+.LigaContenidoCentral:hover {color: #7ac142;}
+.LigaContenidoCentral:active {color: #333333;}
+
+.TituloBanner {font-size:11px;color: #333333;font-weight: bold; line-height:11px; text-align:left; text-decoration:none; padding-bottom:0px; }
+.TituloBanner:link {color: #333333;text-decoration:none;}
+.TituloBanner:visited {color: #333333;text-decoration:none;}
+.TituloBanner:hover {color: #D00016;text-decoration:none;}
+.TituloBanner:active {color: #333333;text-decoration:none;}
+
+.Migas {font-size: 10px;color: #666666;font-weight: normal; text-align:left; text-decoration:none}
+.MigasCurrent {font-size: 10px;color: #666666;font-weight: bold; text-align:left; text-decoration:none}
+.LigaMigas {font-size: 10px;color: #666666;font-weight: normal; text-align:left; text-decoration:none}
+.LigaMigas:link {color: #666666; text-decoration:underline;}
+.LigaMigas:visited {color: #666666; text-decoration:underline;}
+.LigaMigas:hover {color: #db001b; text-decoration:underline;}
+.LigaMigas:active {color: #666666; text-decoration:underline;}
+.LigaBusquedaAvanzada {font-size: 11px;color: #333333;font-weight: bold; text-align:right; text-decoration:underline; line-height:16px;}
+.LigaBusquedaAvanzada:link {color: #333333;font-weight: bold;}
+.LigaBusquedaAvanzada:visited {color: #333333;font-weight: bold;}
+.LigaBusquedaAvanzada:hover {color: #db001b;font-weight: bold;}
+.LigaBusquedaAvanzada:active {color: #333333;font-weight: bold;}
+/*Estilo Menus de Lista Rojo*/
+.MenuListaRojo{width: 100%; text-align:left;}
+.MenuListaRojo .headerbar{font-size:13px; font-weight:bold;color: white;background: #db001b url(barratitulorojo.gif) repeat-x center left;background-color:inherit; margin-bottom: 10px; padding: 4px 0 4px 10px; }
+.MenuListaRojo ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px; font-size:12px; font-weight:normal;}
+.MenuListaRojo ul li{padding-bottom: 2px; }
+.MenuListaRojo ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 1px solid #dadada;font-size: 100%;}
+.MenuListaRojo ul li a:visited{color: #333333;}
+.MenuListaRojo ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+/*Estilo Menus de Lista Verde*/
+.MenuListaVerde{width: 100%;text-align:left;}
+.MenuListaVerde .headerbar{font-size:13px; font-weight:bold;color: white;background: #3a9100 url(barratituloverde.gif) repeat-x center left;margin-bottom: 10px; padding: 4px 0 4px 10px; }
+.MenuListaVerde .headerbarmenu{font-size:13px; font-weight:bold;color: white;background: #3a9100 url(barratituloverde.gif) repeat-x center left;margin-bottom: 10px;text-align: center; padding: 4px 0 4px 0px; }
+.MenuListaVerde ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px; font-size:12px; font-weight:normal;}
+.MenuListaVerde ul li{padding-bottom: 2px; }
+.MenuListaVerde ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 1px solid #dadada;font-size: 100%;}
+.MenuListaVerde ul li a:visited{color: #333333;}
+.MenuListaVerde ul li a:hover{ color: #7ac142;background-color: #F3F3F3;}
+.MenuListaVerde li .current{ color: #7ac142;background: url(bulletverde-abajo.gif) no-repeat center left;}
+.MenuListaVerde li .currentsimple{ color: #7ac142;background: #F3F3F3 url(bulletverde.gif) no-repeat center left;}
+/*Estilo Menu Gris*/
+.MenuGris{width: 100%;text-align:left;}
+.MenuGris .headerbar{font-size:13px; font-weight:bold;color: white;background: #f3f3f3 url(barratituloblanco.gif) repeat-x center left;margin-bottom: 10px; padding: 4px 0 4px 10px; }
+
+.MenuGris .headerbarmenu{font-size:13px; font-weight:bold;color: #7c838b;background: #f3f3f3 url(barratituloblanco.gif) repeat-x center left;margin-bottom: 10px;text-align: center; padding: 4px 0 4px 0px; }
+.MenuGris .headerbarmenu a{color: #7c838b;display: block;text-decoration: none;font-weight: bold;font-size: 100%;}
+.MenuGris .headerbarmenu a:visited{color: #7c838b;}
+.MenuGris .headerbarmenu a:hover{ color: #7ac142;}
+
+.MenuGris ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px; font-size:12px; font-weight:normal;}
+.MenuGris ul li{padding-bottom: 2px; }
+.MenuGris ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 1px solid #dadada;font-size: 100%;}
+.MenuGris ul li a:visited{color: #333333;}
+.MenuGris ul li a:hover{ color: #7ac142;background-color: #F3F3F3;}
+.MenuGris li .current{ color: #7ac142;background: url(bulletverde-abajo.gif) no-repeat center left;}
+.MenuGris li .currentsimple{ color: #7ac142;background: #F3F3F3 url(bulletverde.gif) no-repeat center left;}
+/*Estilo Submenus de Lista Verde*/
+.SubmenuListaVerde{width: 100%; text-align:left;}
+.SubmenuListaVerde .headerbar{font-size:13px; font-weight:bold;color: white;background:  url(barratituloverde.gif) repeat-x center left; background-color:inherit;  margin-bottom: 10px; padding: 4px 0 4px 10px; }
+.SubmenuListaVerde ul{list-style-type: none;margin: 0;padding: 0;margin-left:15px;margin-bottom: 8px;font-size:12px; font-weight:normal;}
+.SubmenuListaVerde ul li{padding-bottom: 2px; }
+.SubmenuListaVerde ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 0px solid #dadada;font-size: 100%;}
+.SubmenuListaVerde ul li a:visited{color: #333333;}
+.SubmenuListaVerde ul li a:hover{ color: #7ac142;background-color: #F3F3F3;}
+.SubmenuListaVerde li .current{ color: #7ac142;background:#F3F3F3 url(bulletverde.gif) no-repeat center left;}
+/*Estilo Menus de Lista Blanca*/
+.MenuListaBlanca{width: 100%; text-align:left;}
+.MenuListaBlanca .headerbar{font-size:13px; font-weight:bold;color: #333333;background: #3a9100 url(barratituloblanco.gif) repeat-x center left;margin-bottom: 10px; padding: 4px 0 4px 10px; }
+.MenuListaBlanca .headerbar a{color: #333333;display: block;text-decoration: none;font-weight: bold;font-size: 100%;}
+.MenuListaBlanca .headerbar a:visited{color: #333333;}
+.MenuListaBlanca .headerbar a:hover{ color: #7ac142;}
+.MenuListaBlanca ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:12px; font-weight:normal;}
+.MenuListaBlanca ul li{padding-bottom: 2px; }
+.MenuListaBlanca ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 1px solid #dadada;font-size: 100%;}
+.MenuListaBlanca ul li a:visited{color: #333333;}
+.MenuListaBlanca ul li a:hover{ color: #7ac142;background-color: #F3F3F3;}
+/*Estilo Menus de Lista Servicios*/
+.MenuListaServicios{width: 100%; text-align:left;}
+.MenuListaServicios .headerbar{font-size:14px; font-weight:bold;color: #666666;background: url(bulletverde.gif) no-repeat center left;margin-bottom: 2px; padding: 4px 0 4px 12px; }
+.MenuListaServicios ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:12px; font-weight:normal;}
+.MenuListaServicios ul li{padding-bottom: 2px; }
+.MenuListaServicios ul li a{color: #333333;display: block;padding: 2px 0;line-height:10px;padding-left: 13px;text-decoration: none;font-weight: normal;font-size: 12px;}
+.MenuListaServicios ul li a:visited{color: #333333; }
+.MenuListaServicios ul li a:hover{ color: #7ac142;}
+/*Estilo Menus de Lista Verde2, para convocatorias y eventos*/
+.MenuListaVerde2{width: 100%;text-align:left;}
+
+.MenuListaVerde2 ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:12px; font-weight:normal;}
+.MenuListaVerde2 ul li{padding-bottom: 2px; }
+.MenuListaVerde2 ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left;display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 1px solid #dadada;font-size: 100%;}
+.MenuListaVerde2 ul li a:visited{color: #333333;}
+.MenuListaVerde2 ul li a:hover{ color: #7ac142;background-color: #F3F3F3;}
+/*Estilo Menus de Lista Verde2, para convocatorias y eventos*/
+.MenuListaOtrosServicios{width: 100%; /*ancho del menu*/text-align:left;}
+.MenuListaOtrosServicios .headerbar{font-size:13px; font-weight:bold;color: white;background: #009107 url(barratituloverde2.jpg) repeat-x center left;margin-bottom: 10px; padding: 4px 0 4px 10px; }
+.MenuListaOtrosServicios ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:12px; font-weight:normal;}
+.MenuListaOtrosServicios ul li{padding-bottom: 2px; }
+.MenuListaOtrosServicios ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 1px solid #dadada;font-size: 100%;}
+.MenuListaOtrosServicios ul li a:visited{color: #333333;}
+.MenuListaOtrosServicios ul li a:hover{ color: #7ac142;background-color: #F3F3F3;}
+/*Estilo Menus de Lista Gris*/
+.MenuListaGris{width: 100%; text-align:left;}
+.MenuListaGris .headerbar{font-size:13px; font-weight:bold;color: white;background: black url(barratitulogris.gif) repeat-x center left;background-color:inherit; margin-bottom: 10px; padding: 4px 0 4px 10px; }
+.MenuListaGris ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:12px; font-weight:normal;}
+.MenuListaGris ul li{padding-bottom: 2px; }
+.MenuListaGris ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 1px solid #dadada;font-size:12px; }
+.MenuListaGris ul li a:visited{color: #333333;}
+.MenuListaGris ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+/*Estilo Menus Listado de Tr�mites y Servicios*/
+.MenuListadoTramites{width: 100%; text-align:left;}
+.MenuListadoTramites .headerbar{font-size:13px; font-weight:bold;color:  #7c838b;background: #EBEBEB;margin-bottom: 10px; padding: 4px 0 4px 10px; }
+.MenuListadoTramites ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:12px; font-weight:normal}
+.MenuListadoTramites ul li{padding-bottom: 8px; }
+.MenuListadoTramites ul li a{color: #333333;background: url(bulletcuadritogris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;border-bottom: 1px solid #dadada;}
+.MenuListadoTramites ul li a:visited{color: #333333;}
+.MenuListadoTramites ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+
+/*Estilo Menus de Lista Gris Simple*/
+.MenuListaGrisSimple{width: 100%; text-align:left;}
+.MenuListaGrisSimple .headerbar{font-size:13px; font-weight:bold;color: #db001b;background: #ffffff url(bulletcuadritorojo.gif) no-repeat center left;margin-bottom: 10px; padding: 4px 0 4px 19px; }
+.MenuListaGrisSimple .itemsimple{color: #000000;background: url(bulletcuadritogris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;font-size:12px;}
+.MenuListaGrisSimple ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:12px; font-weight:normal}
+.MenuListaGrisSimple ul li{padding-bottom: 2px; }
+.MenuListaGrisSimple ul li a{color: #333333;background: url(bulletcuadritogris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;font-size:12px;}
+.MenuListaGrisSimple ul li a:visited{color: #333333;}
+.MenuListaGrisSimple ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+/*Estilo Menus de Listado de Temas Segundo Nivel*/
+.MenuListadoTemas{width: 100%; text-align:left;}
+.MenuListadoTemas .headerbar{font-size:13px; font-weight:bold;color: #ffffff;background: #7ac142 url(barratituloverde.gif) repeat-x center left; background-color:inherit; margin-bottom: 10px; padding: 4px 0 4px 19px; }
+.MenuListadoTemas ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 25px;font-size:12px; font-weight:normal;}
+.MenuListadoTemas ul li{padding-bottom: 2px; }
+.MenuListadoTemas ul li a{color: #333333;background: url(bulletcuadritogris.gif) no-repeat center left; /*imagen del bullet*/display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;font-size:12px;}
+.MenuListadoTemas ul li a:visited{color: #333333;}
+.MenuListadoTemas ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+/*Estilo Menus de Lista Programa*/
+.MenuListaPrograma{width: 100%; text-align:left;}
+.MenuListaPrograma ul{list-style-type: none;margin: 0;padding: 0;padding-left:19px;margin-bottom: 15px;font-size:12px; font-weight:normal;}
+.MenuListaPrograma ul li{padding-bottom: 2px;line-height:13px;color: #333333;background: url(bulletcuadritorojo.gif) no-repeat center left; /*imagen del bullet*/display: block;padding: 2px 0;padding-left: 19px;text-decoration: none;font-weight: normal;font-size:12px;}
+.MenuListaPrograma ul li a:visited{color: #333333;}
+.MenuListaPrograma ul li a:hover{ color: #db001b;}
+/*Estilo Menus de Lista para Temas y Personas sin bullet*/
+.MenuLista{width: 100%; text-align:left;}
+.MenuLista ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:12px; font-weight:normal;font-size:12px; font-weight:normal;}
+.MenuLista ul li{padding-bottom: 2px; }
+.MenuLista ul li a{color: #333333;display: block;padding: 0px 0;line-height:12px;padding-left: 0px;text-decoration: none;font-weight: normal;font-size: 100%;}
+.MenuLista ul li a:visited{color: #333333;}
+.MenuLista ul li a:hover{ color: #db001b;text-decoration:underline;}
+
+.LigaPlanEstudio {font-size: 12px;color: #db001b; font-weight: normal; text-align:right; text-decoration:underline; background:url(iconoplanestudios.gif) no-repeat center left; padding-left:35px; padding-top:6px; padding-bottom:6px;}
+.LigaPlanEstudio:link {color: #db001b; background:url(iconoplanestudios.gif) no-repeat center left; }
+.LigaPlanEstudio:visited {color: #db001b;background:url(iconoplanestudios.gif) no-repeat center left;}
+.LigaPlanEstudio:hover {color: #7ac142;background:url(iconoplanestudios.gif) no-repeat center left;}
+.LigaPlanEstudio:active {color: #db001b;background:url(iconoplanestudios.gif) no-repeat center left;}
+/*Liga Simple*/
+.Ligasimple{width: 100%; text-align:left;}
+.Ligasimple ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 0px; font-size: 19px;}
+.Ligasimple ul li{padding-bottom: 2px; }
+.Ligasimple ul li a{color: #333333;background: url(bulletgris.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 19px;text-decoration: underline;font-weight: normal;}
+.Ligasimple ul li a:visited{color: #333333;}
+.Ligasimple ul li a:hover{ color: #db001b;}
+
+/*ListaVivero*/
+.ListaVivero{width: 100%; text-align:left;}
+.ListaVivero ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 0px; font-size: 19px;}
+.ListaVivero ul li{padding-bottom: 2px; }
+.ListaVivero ul li a{color: #333333;background: url(iconovivero.gif) no-repeat center left; display: block;padding: 2px 0;padding-left: 40px; line-height:37px;text-decoration: underline;font-weight: normal;}
+.ListaVivero ul li a:visited{color: #333333;}
+.ListaVivero ul li a:hover{ color: #7ac142;}
+
+.CampodeTexto{border:none; border-color: #CCCCCC; border-style: solid; border-width: thin; font-size:12px; height:20px; color:#666666;}
+.TablaBuscador{background-color:#E4E4E4;padding:13px;border:0px;height:43px;width:100%;line-height:12px;vertical-align:middle;}
+.TablaServiciosExternos{background-color:#EBEDEC;padding:10px;border:0px;width:100%;vertical-align: top;}
+
+hr {border:none;border-top:dotted 2px #d32245; margin-bottom:10px; margin-top:10px;}
+.plecagris {border-top:dotted 2px #666666;}
+.box { width:650px;height:50px;border:dotted 1px green;}
+/*Estilos Carrusel de Banners*/
+.stepcarousel{position: relative; overflow: scroll; width: 528px;height:72px; }
+.stepcarousel .belt{position: absolute; text-align:center;width: 528px;left: 0;top: 0;}
+.stepcarousel .panel{float: left; overflow: hidden; margin-top: 9px; margin-left:0px;margin-right:11px;width: 200px;}
+.accesosDirectos {font-size: 10px;color: #999999;}
+/*Estilo Tabla Gris*/
+.TablaGris{border: 0px #CCCCCC solid; padding:0px; margin-bottom:17px; width:100%;}
+.TablaGristd {border: 1px solid #cccccc;border-collapse: collapse; padding:4px;}
+.TablaGristh {border: 1px solid #cccccc;border-collapse: collapse;color: #ffffff; font-weight:bold; background:#999999; background-color:inherit;padding:4px;}
+.TablaRojath {border: 1px solid #db001b;border-collapse: collapse;color: #ffffff; font-weight:bold; background:#999999; background-color:inherit; padding:4px;}
+.TablaRojatd {border: 1px solid #db001b;border-collapse: collapse; padding:4px;}
+
+.TelefonoContacto {font-size: 12px;color: #333333; font-weight: normal; text-align: justify; text-decoration:none; background:url(iconotelefono.gif) no-repeat center left; padding-left:50px; padding-right:9px; padding-top:8px; padding-bottom:8px; border:1px #db001b solid;}
+
+
+.LosMasBuscados{
+font-size:14px; margin-bottom:10px; text-align:center; font-weight:bold;
+}
+
+.LigaLosMasBuscados {font-size: 12px;color: #db001b;font-weight: normal; text-align:right; text-decoration:none; margin-left:15px;}
+.LigaLosMasBuscados:link {color: #000000;}
+.LigaLosMasBuscados:visited {color: #000000;}
+.LigaLosMasBuscados:hover {color: #db001b;}
+.LigaLosMasBuscados:active {color: #000000;}
+
+/*Estilo Liga Ir Arriba*/
+.LigaArriba {font-size: 11px;color: #db001b; font-weight: normal; text-align:left; text-decoration:underline; background:url(bulletarriba.gif) no-repeat center left; padding-left:20px; padding-top:2px; padding-bottom:2px;}
+.LigaArriba:link {color: #db001b; }
+.LigaArriba:visited {color: #db001b;}
+.LigaArriba:hover {color: #7ac142;}
+.LigaArriba:active {color: #db001b;}
+
+/*Nuevos Estilos*/
+.TituloRojoEncabezados {margin-bottom:7px;font-size: 13px;font-weight: bold;color: #db001b;}
+.TitularVinoEventos {padding-bottom:0px;font-size: 12px;font-weight: bold;color: #98344B;}
+
+/*Menu Lista Simple*/
+.MenuListaSimple{width: 100%; text-align:left;}
+.MenuListaSimple ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 6px;font-size:10px; font-weight:normal;}
+.MenuListaSimple ul li{padding-bottom: 2px; }
+.MenuListaSimple ul li a{color: #333333;background: url(bulletrojoglossy.gif) no-repeat center left; display: block;padding: 1px 0;padding-left: 13px;text-decoration: none;font-weight: normal;}
+.MenuListaSimple ul li a:visited{color: #333333;}
+.MenuListaSimple ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+/*Menu Lista Simple Verde*/
+.MenuListaSimpleVerde{width: 100%; text-align:left;}
+.MenuListaSimpleVerde ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 7px;font-size:11px; font-weight:normal;}
+.MenuListaSimpleVerde ul li{padding-bottom: 2px;}
+.MenuListaSimpleVerde ul li a{color: #587427; display: block;padding: 0px 0;padding-left: 4px;text-decoration: none;font-weight: bold;font-size: 100%;}
+.MenuListaSimpleVerde ul li a:visited{color: #587427;}
+.MenuListaSimpleVerde ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+/*Estilo Liga sin bullet para  Ver todos temas, personas, secciones*/
+.LigaVerTodos {font-size: 11px;color: #db001b;font-weight: normal; text-align: right; text-decoration:none; }
+.LigaVerTodos:link {color: #db001b;}
+.LigaVerTodos:visited {color: #db001b;}
+.LigaVerTodos:hover {color: #333333; text-decoration:underline;}
+.LigaVerTodos:active {color: #db001b;}
+/*Estilo Menus de Lista Bullet Rojo*/
+.MenuListaBullet{width: 100%; text-align:left;}
+.MenuListaBullet ul{list-style-type: none;margin: 0;padding: 0;margin-bottom: 8px;font-size:10px; font-weight:normal;}
+.MenuListaBullet ul li{padding-bottom: 2px; }
+.MenuListaBullet ul li a{color: #333333;background: url(bulletrojoglossy.gif) no-repeat center left; display: block;padding: 1px 0;padding-left: 13px;text-decoration: none;font-weight: normal;}
+.MenuListaBullet ul li a:visited{color: #333333;}
+.MenuListaBullet ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+
+.TelefonosdeUtilidadDigitos {padding-bottom:0px;font-size: 11px;font-weight: bold;color: #587427;}
+/*Estilo Liga Home Banner Transparencia */
+.LigaBannerTransp {font-size: 10px;color: #05865d;font-weight: bold; text-align: left; text-decoration:none; }
+.LigaBannerTransp:link {color: #05865d;}
+.LigaBannerTransp:visited {color: #05865d;}
+.LigaBannerTransp:hover {color: #05865d; text-decoration:none;}
+.LigaBannerTransp:active {color: #05865d;}
+/*Estilo Liga Home Banner Portal de Pagos */
+.LigaBannerPagos {font-size: 10px;color: #ca0e41;font-weight: bold; text-align: left; text-decoration:none; }
+.LigaBannerPagos:link {color: #ca0e41;}
+.LigaBannerPagos:visited {color: #ca0e41;}
+.LigaBannerPagos:hover {color: #ca0e41; text-decoration:none;}
+.LigaBannerPagos:active {color: #ca0e41;}
+/*Estilo Liga Home Banner Aviso Header */
+.LigaBannerHeader {font-size:11px;color: #ffffff;font-weight: bold; text-align:center; text-decoration: none;background-color:inherit;}
+.LigaBannerHeader:link {color: #ffffff;background-color:inherit;}
+.LigaBannerHeader:visited {color: #ffffff;background-color:inherit;}
+.LigaBannerHeader:hover {color: #ffffff;background-color:inherit;}
+.LigaBannerHeader:active {color: #ffffff;background-color:inherit;}
+/*Estilo Barra de Navegaci�n Auxiliar Header*/
+.LigaBarraNav {font-family: Arial;font-size: 11px;color: #ffffff;font-weight: normal; text-decoration:none;background-color:inherit;}
+.LigaBarraNav:link {text-decoration: none; color:#FFFFFF;background-color:inherit;}
+.LigaBarraNav:visited {text-decoration: none; color: #ffffff;background-color:inherit;}
+.LigaBarraNav:hover {text-decoration: none; color: #ffffff;background-color:inherit;}
+.LigaBarraNav:active {text-decoration: none; color: #ffffff;background-color:inherit;}
+/*Estilo Bot�n Buscar*/
+#BotonBuscar {background:url(buscar.png) no-repeat 100% 50%; width:52px; height:30px; border:none; cursor: pointer; color:#db001b; margin-top:-25px; padding-left:20px;}
+.BotonBuscar{border:0; vertical-align:top; }
+/*Estilo Apartado de Medios en l�nea Home*/
+.LigaMedia {font-size:11px;color: #000000;font-weight: normal; text-decoration:none;background-color:inherit;}
+.LigaMedia:link {color: #000000;background-color:inherit;}
+.LigaMedia:visited {color: #000000;background-color:inherit;}
+.LigaMedia:hover {color: #db001b; background-color:inherit;}
+.LigaMedia:active {color: #000000;background-color:inherit;}
+/*Estilo Tabla Chat*/
+.ChatTopico {padding-bottom:0px;font-size: 11px;font-weight: bold;color: #2d7806;}
+.ChatTopicoRojo {padding-bottom:0px;font-size: 11px;font-weight: bold;color: #a20130;}
+.ChatDescripcion {padding-bottom:0px;font-size: 11px;font-weight: bold;color: #535353;}
+
+/*Estilo Titulo de Tabla de Tramites y Servicios*/
+.TituloVerdeTabla{font: bold 13px Arial;color: white; margin-bottom: 0px; padding: 0px; padding-top:6px; background-image:url(barraISUBS.jpg); background-repeat:no-repeat; height:27px;background-color:inherit; text-align:center }
+/*Estilo Titulo Principal Secciones principales del Portal*/
+.EncabezadoPrincipalSecciones {font-family: Arial;padding-bottom:0px;background-image:url(barratituloseccion.gif); background-repeat: repeat-x;font-size: 2.1em;height:39px;font-weight: bold;color: #d21145;padding-top:2px; width:570px; height:56px}
+.TituloCanalRojo{ font-family: Arial;padding-bottom:0px;font-size: 22px;font-weight: bold;color: #d21145;padding-top:2px;}
+/*Estilo Caja Buscador G�nerico Secciones*/
+.CajaBuscarGenerico{font-size:12px; color: #999999; border:solid; border-style:solid; border-width:1px; border-color: #999999; width:125px; height:20px;background-color:inherit;}
+
+/*NUEVOS*/
+
+/*Estilos para contenedores del Homepage del PortalGEM*/
+	
+.grid {
+  width: 980px;
+  margin: auto;
+}
+
+.grid-m1 {
+  float: left;
+  width: 0px;
+  height: 1px;
+}
+
+.grid-c1 {
+  float: left;
+  width: 470px;
+}
+
+.grid-m2 {
+  float: left;
+  width: 20px;
+  height: 1px;
+}
+
+.grid-c2 {
+  float: left;
+  width: 225px;
+}
+
+
+
+.box1 { /*Contenedor gen�rico - Home Portalgem*/
+	background: #ffffff;
+	width: 100%;
+	height: auto;
+	margin: 0 0px 20px 0px;
+	padding: 0px;
+	color: #000;
+	font-weight: normal;
+	border: 1px solid #cccccc;
+	float:left;
+
+}
+
+.box2 { /*Contenedor Tel�fonos de emergencia - Home Portalgem*/
+	background: #F6F6F6;
+	width: 100%;
+	height: auto;
+	margin: 0 0px 20px 0px;
+	padding: 0px;
+	color: #000;
+	font-weight: normal;
+	border-top: 1px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+	float:left;
+
+}
+
+.BoxLigaHome {border-bottom-width:1px; border-bottom-color:#cccccc; border-bottom-style:solid; margin-bottom:5px; display: block}
+
+.LigaBulletImagen{color: #000000; text-decoration:none;}
+.LigaBulletImagen:link {color: #000000; text-decoration:none;}
+.LigaBulletImagen:visited {color: #000000;text-decoration:none;}
+.LigaBulletImagen:hover {color: #db001b;text-decoration:none;}
+.LigaBulletImagen:active {color: #000000;text-decoration:none;}
+
+.BoxLigaverMas {margin-bottom:5px; margin-left:10px; display: block}
+
+.LigaverMas{  color: #db001b; text-decoration:none; }
+.LigaverMas:link { color: #db001b; text-decoration:none;  }
+.LigaverMas:visited { color: #db001b; text-decoration:none; }
+.LigaverMas:hover {color: #000000;text-decoration: underline; }
+.LigaverMas:active {color: #db001b;text-decoration:none;  }
+
+/*Fin de Estilos de los contenedores del Homepage del PortalGEM*/
+
+/*Titulos cajas*/
+.Encabezados { text-align:left; margin-left:0px; margin-bottom:15px;background-color:#f6f6f6; background-repeat:repeat-x; height:24px; width:100%; border-bottom-style:solid; border-bottom-color:#cccccc; border-bottom-width:2px;}
+
+.Encabezados .headerbar{ padding-left:7px; padding-top:4px; padding-bottom:4px; font-size:14px;font-weight: bold;color: #db001b; text-decoration:none; }
+
+.EncabezadoSimple { text-align:left; margin-left:0px; margin-bottom:20px;background-color:#f6f6f6; background-repeat:repeat-x; height:24px; width:100%;}
+
+.EncabezadoSimple .headerbar{ padding-left:7px; padding-top:4px; padding-bottom:4px; font-size:14px;font-weight: bold;color: #db001b; text-decoration:none; }
+
+/*Caja Eventos y convocatorias - Agenda Cultural*/
+
+.EncabezadoEyC { text-align:left; margin-left:0px; margin-bottom:0px; height:38px; width: 225px; float:left}
+
+.EncabezadoEyC .headerbar{ padding-left:12px; padding-top:10px; padding-bottom:4px;}
+
+.EncabezadoEyC .headerbarlink {font-size:14px;font-weight: bold;color: #ffffff; text-decoration:none;cursor: pointer;}
+.EncabezadoEyC .headerbarlink:link {font-size:14px;font-weight: bold;color: #ffffff; text-decoration:none; cursor: pointer;}
+.EncabezadoEyC .headerbarlink:visited {color: #ffffff; text-decoration:none;}
+.EncabezadoEyC .headerbarlink:hover {color: #ffffff; text-decoration:none;}
+.EncabezadoEyC .headerbarlink:active {color: #ffffff; text-decoration:none;}
+
+.EncabezadoEyC .headerbarlinkoff {font-size:14px;font-weight: bold;color: #ba0046; text-decoration:none;cursor: pointer;}
+.EncabezadoEyC .headerbarlinkoff:link {font-size:14px;font-weight: bold;color: #ba0046; text-decoration:none; cursor: pointer;}
+.EncabezadoEyC .headerbarlinkoff:visited {color: #ba0046; text-decoration:none;}
+.EncabezadoEyC .headerbarlinkoff:hover {color: #ba0046; text-decoration:none;}
+.EncabezadoEyC .headerbarlinkoff:active {color: #ba0046; text-decoration:none;}
+
+.EncabezadoAgenda { text-align:left; margin-left:0px; margin-bottom:0px;height:38px; width:170px; float:left}
+
+.EncabezadoAgenda .headerbar{ padding-left:12px; padding-top:10px; padding-bottom:4px;}
+
+.EncabezadoAgenda .headerbarlink {font-size:14px;font-weight: bold;color: #ffffff; text-decoration:none;cursor: pointer;}
+.EncabezadoAgenda .headerbarlink:link {font-size:14px;font-weight: bold;color: #ffffff; text-decoration:none; cursor: pointer;}
+.EncabezadoAgenda .headerbarlink:visited {color: #ffffff; text-decoration:none;}
+.EncabezadoAgenda .headerbarlink:hover {color: #ffffff; text-decoration:none;}
+.EncabezadoAgenda .headerbarlink:active {color: #ffffff; text-decoration:none;}
+
+.EncabezadoAgenda .headerbarlinkoff {font-size:14px;font-weight: bold;color: #ba0046; text-decoration:none;cursor: pointer;}
+.EncabezadoAgenda .headerbarlinkoff:link {font-size:14px;font-weight: bold;color: #ba0046; text-decoration:none; cursor: pointer;}
+.EncabezadoAgenda .headerbarlinkoff:visited {color: #ba0046; text-decoration:none;}
+.EncabezadoAgenda .headerbarlinkoff:hover {color: #ba0046; text-decoration:none;}
+.EncabezadoAgenda .headerbarlinkoff:active {color: #ba0046; text-decoration:none;}
+
+.tab1{
+background-image:url(eventos.png); background-repeat:no-repeat;
+width:470px; height:38px;
+
+}
+
+.tab2{
+background-image:url(agenda.png); background-repeat:no-repeat;
+width:470px; height:35px;
+
+}
+#capa1 {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:470px;
+	height:213px;
+	z-index:1;
+}
+.capa1hide {
+	position:relative;
+	left:498px;
+	top:61px;
+	width:470px;
+	height:213px;
+	z-index:1;
+	visibility:hidden;
+	display:none;
+}
+#capa2 {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:470px;
+	height:199px;
+	z-index:2;
+}
+.capa2hide {
+	position:relative;
+	left:12px;
+	top:45px;
+	width:470px;
+	height:199px;
+	z-index:2;
+	visibility:hidden;
+	display:none;
+}
+
+
+/*Menu Lista Home Bullet Glossy*/
+.MenuListaHome{width: 100%; text-align:left;}
+.MenuListaHome ul{list-style-type: none;margin: 0; margin-left:10px;padding: 0;margin-bottom: 6px;font-size:10px; font-weight:normal;}
+.MenuListaHome ul li{padding-bottom: 2px; }
+.MenuListaHome ul li a{color: #333333;background: url(bulletrojoglossy.gif) no-repeat center left; display: block;padding: 1px 0;padding-left: 13px;text-decoration: none;font-weight: normal;}
+.MenuListaHome ul li a:visited{color: #333333;}
+.MenuListaHome ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+
+/*Menu Medios en l�nea Home*/
+.MediaHome1{width: 100%; text-align:left;}
+.MediaHome1 ul{list-style-type: none;margin: 0; margin-left:5px;padding: 0;margin-bottom: 6px; margin-top:5px; font-size:11px; font-weight:normal;}
+.MediaHome1 ul li{padding-bottom: 2px; }
+.MediaHome1 ul li a{color: #333333;background: url(tv.gif) no-repeat center left; display: block;padding: 1px 0;padding-left: 82px; padding-top:10px; padding-bottom:10px;text-decoration: none;font-weight: normal; }
+.MediaHome1 ul li a:visited{color: #333333;}
+.MediaHome1 ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+
+.MediaHome2{width: 100%; text-align:left;}
+.MediaHome2 ul{list-style-type: none;margin: 0; margin-left:5px;padding: 0;margin-bottom: 6px;font-size:11px; font-weight:normal;}
+.MediaHome2 ul li{padding-bottom: 2px; }
+.MediaHome2 ul li a{color: #333333;background: url(radio.gif) no-repeat center left; display: block;padding: 1px 0;padding-left: 82px;padding-top:10px; padding-bottom:10px;text-decoration: none;font-weight: normal; }
+.MediaHome2 ul li a:visited{color: #333333;}
+.MediaHome2 ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+
+.MediaHome3{width: 100%; text-align:left;}
+.MediaHome3 ul{list-style-type: none;margin: 0; margin-left:5px;padding: 0;margin-bottom: 6px;font-size:11px; font-weight:normal;}
+.MediaHome3 ul li{padding-bottom: 2px; }
+.MediaHome3 ul li a{color: #333333;background: url(legis.gif) no-repeat center left; display: block;padding: 1px 0;padding-left: 82px;padding-top:10px; padding-bottom:10px;text-decoration: none;font-weight: normal; }
+.MediaHome3 ul li a:visited{color: #333333;}
+.MediaHome3 ul li a:hover{ color: #db001b;background-color: #F3F3F3;}
+
+
+/*Footer Portal*/
+#PiePaginaPortal{
+width: 100%;
+height:64px;
+background: black;
+color: #FFF;
+text-align: center;
+padding-top: 20px;
+background:url(footer.png); background-repeat: no-repeat;background-position: 50% 0%; background-color:inherit; 
+}
+#PiePaginaPortal a{
+color: #FFFFFF;
+}
+
+/*Footer*/
+#PiePagina{
+width: 100%;
+height:84px;
+background: black;
+color: #FFF;
+text-align: center;
+padding-top: 8px;
+background:url(footer.png); background-repeat: no-repeat;background-position: 50% 0%; background-color:inherit;
+}
+#PiePagina a{
+color: #FFFFFF;background-color:inherit;
+}
+.PiePaginaTexto{color:#FFFFFF}
+.contenedorpiepagina {width:920px; color:#FFFFFF}
+/*Header*/
+
+.tablaheaderportalgem { width:960px; height:140px; background:url(fondoheader_portalgem.png); background-repeat:no-repeat; border: none; margin-bottom:0px;}
+.buscadorformpadding {margin-bottom: 0px; padding-bottom: 0px;}
+.tablaheader { width:960px; height:140px; background:url(fondoheader_sitios.png); background-repeat:no-repeat; border: none; margin-bottom:0px;}
+.celdatitulosheader {width:627px; height:90px;}
+.celdaplecatopheader {height:49px;}
+.celdabarranavheader {margin-left:190px; margin-top:-3px; margin-right:0px; margin-bottom:0px; position:relative; width:75%}
+.contenedorbuscadorheader {margin-left:400px; margin-top:-25px;}
+.cajabuscadorheader {border: 1px solid rgb(153, 153, 153); font-size: 12px; color: rgb(153, 153, 153); width: 100px;}
+.contenedortraductorheader {margin-left:580px; margin-top:-34px;}
+.contenedortitulosheader {margin-left:190px; margin-top:35px; margin-right:0px; margin-bottom:0px; position:relative; width:60%}
+.TituloHeader { /*Estilo Titulo de la p�gina en el Header*/
+	font-size: 12px; float:left; color: #294e00; font-weight: bold; margin-top:0px; margin-bottom:0px;
+}
+.SubtituloHeader { /*Estilo Subtitulo de la p�gina en el Header*/
+	font-size: 13px;  color: #db001b; font-weight: bold; margin-top:0px; margin-bottom:0px;
+}
+
+/*Fin de Estilos del Header*/
+
+/*Header Sistemas */
+.LigasHeaderSistemas {color: #ffffff; text-decoration:none; margin-left:10px; margin-right:10px;}
+.LigasHeaderSistemas:link {color: #ffffff; text-decoration:none; }
+.LigasHeaderSistemas:visited {color: #ffffff; text-decoration:none;}
+.LigasHeaderSistemas:hover {color: #ffffff; text-decoration:underline;}
+.LigasHeaderSistemas:active {color: #ffffff; text-decoration:none;}
+
+/*Telef�nos de Emergencia*/
+.TituloVerdeBox225 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #84a500;
+	text-decoration: none;
+}
+.TitulorojoBox225 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ba0046;
+	text-decoration: none;
+}
+
+.TituloGrisBox225 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+
+.textoTemaBullet {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#333333;
+	text-decoration:none;
+}
+
+.aTextoTema{font-size: 10px;color: #000000;}
+.aTextoTema:link {color: #000000; text-decoration:none;font-size: 10px;}
+.aTextoTema:visited {color: #000000;}
+.aTextoTema:hover {color: #ba0046;}
+.aTextoTema:active {color: #000000;}
+
+.averMas{ margin-left:150px; color: #ba0046; text-decoration:none;font-size: 10px;}
+.averMas:link { margin-left:150px; color: #ba0046; text-decoration:none;font-size: 10px;}
+.averMas:visited { margin-left:150px; color: #ba0046; text-decoration:none;font-size: 10px;}
+
+.TelEmergencias {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left:0px;
+	text-align:left;
+	color: #90aF10;
+}
+
+.TelDAnonima {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left:0px;
+	text-align:left;
+	color: #ba0046;
+}

@@ -1,0 +1,8 @@
+/* NOTA: Para agregar un nuevo usuario se debe capturar bajo el siguiente formato:
+/*    	 Nombre-Password;
+/*	
+/*	 Ejemplo: 
+/*	 user1-passuser1;
+Usuarios:
+admin-admin123;
+pedro-pedro123;

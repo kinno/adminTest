@@ -1,0 +1,113 @@
+.TituloVerdeBox225 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #84a500;
+	text-decoration: none;
+}
+.TitulorojoBox225 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ba0046;
+	text-decoration: none;
+}
+
+.TituloGrisBox225 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+
+.textoTemaBullet {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#333333;
+	text-decoration:none;
+}
+
+.aTextoTema: {font-size: 10px;color: #000000;}
+.aTextoTema:link {color: #000000; text-decoration:none;font-size: 10px;}
+.aTextoTema:visited {color: #000000;}
+.aTextoTema:hover {color: #ba0046;}
+.aTextoTema:active {color: #000000;}
+
+.averMas: { margin-left:150px; color: #ba0046; text-decoration:none;font-size: 10px;}
+.averMas:link { margin-left:150px; color: #ba0046; text-decoration:none;font-size: 10px;}
+.averMas:visited { margin-left:150px; color: #ba0046; text-decoration:none;font-size: 10px;}
+
+.airArriba: {color: #ba0046; text-decoration:none;font-size: 10px;}
+.airArriba:link {color: #ba0046; text-decoration:none;font-size: 10px;}
+.airArriba:visited {color: #ba0046; text-decoration:none;font-size: 10px;}
+
+.LinksFooter: {color: #333; text-decoration:none;font-size: 11px;}
+.LinksFooter:link {color: #333; text-decoration:none;font-size: 11px;}
+.LinksFooter:visited {color: #333; text-decoration:none;font-size: 11px;}
+
+.LinksFooterBlanco: {color: #fff; text-decoration:none;font-size: 11px;}
+.LinksFooterBlanco:link {color: #fff; text-decoration:none;font-size: 11px;}
+.LinksFooterBlanco:visited {color: #fff; text-decoration:none;font-size: 11px;}
+
+.LinksFooterBlancoGrande: {color: #fff; text-decoration:none; font-weight:bold; font-size: 14px;}
+.LinksFooterBlancoGrande:link {color: #fff; text-decoration:none; font-weight:bold; font-size: 14px;}
+.LinksFooterBlancoGrande:visited {color: #fff; text-decoration:none; font-weight:bold; font-size: 14px;}
+
+.TextoActualizacion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ba0046;
+	text-decoration: none;
+}
+
+.TelefonoEmergencias {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left:60px;
+	font-style: normal;
+	font-weight: bold;
+	color: #90aF10;
+	text-decoration: none;
+}
+
+.TelefonoDAnonima {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 60px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ba0046;
+	text-decoration: none;
+}
+
+.TitulosFooter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #555;
+	text-decoration: none;
+}
+
+.TitulosFooterRojo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ba0046;
+	text-decoration: none;
+}
+
+.TitulosFooterBlanco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+
